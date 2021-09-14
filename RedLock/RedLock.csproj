@@ -1,17 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-    </PropertyGroup>
+      <UserSecretsId>355037e6-0c0d-4862-8520-3220b9cdced5</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="RedLock.net" Version="2.3.1" />
         <PackageReference Include="StackExchange.Redis" Version="2.2.50" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Services" />
     </ItemGroup>
 
 </Project>
